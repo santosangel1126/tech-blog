@@ -73,7 +73,7 @@ const commentdata = [
     },
     {
         comment_text: 'were all pretty bizarre. Some of us are just better at hiding it, thats all',
-        user_id:4
+        user_id:4,
         post_id:15
     },
     {
@@ -101,7 +101,7 @@ const commentdata = [
         user_id:7,
         post_id:20
     },
-    
+
 ]
 
 const seedComments = () => Comment.bulkCreate(commentdata);
